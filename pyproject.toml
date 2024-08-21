@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "team-the-o5-council"
+version = "0.1.0"
+description = "PROD command matcher"
+license = "WTFPL"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.6.3"
+aiogram = {extras = ["fast"], version = "^3.4.1"}
+requests = "^2.31.0"
+bs4 = "^0.0.2"
+pyrogram = "^2.0.106"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
